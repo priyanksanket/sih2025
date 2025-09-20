@@ -1,0 +1,35 @@
+=== SDARC-Enhanced Mission Report ===
+Mission Generated On: 2025-09-19 12:05:46
+
+Mission Overview
+  Rocket Type: Soyuz-2.1a
+  Launch Site: Baikonur Cosmodrome, Kazakhstan
+  Orbit Type: MEO
+  Target Altitude: 2000 km
+  Launch Timestamp: 2025-01-16 21:19:17
+  Total Journey Time: 195.72 s
+
+Rocket Parameters
+  Thrust: 6600.00 kN
+  Initial Mass: 20800.00 kg
+  Burn Time (Design): 118.00 s
+
+Trajectory Details (Pre-Optimization)
+  Initial Position: (x0: 1989.49 km, y0: 3956.51 km, z0: 4580.13 km)
+  Final Position: (x: 4213.19 km, y: 6204.39 km, z: 8371.00 km)
+  Burn Time: 118.00 s
+  Time to Climb: 195.72 s
+  Distance Traveled: 4936 km
+  Orbital Velocity: 6.90 km/s
+
+Trajectory Equations (Pre-Optimization)
+  X: x0 + 69.44t² if t ≤ 118 else x0 + 966832 + 16387(t - 118) + gravity if t ≤ 196 else orbit at 6900 m/s
+  Y: y0 + 70.19t² if t ≤ 118 else y0 + 977267 + 16564(t - 118) + gravity if t ≤ 196 else orbit at 6900 m/s
+  Z: z0 + 118.01t² if t ≤ 118 else z0 + 1643115 + 27849(t - 118) + gravity if t ≤ 196 else 8371000
+
+Collision Detection (Pre-Optimization)
+  Collisions Detected: 0
+  Status: No collisions detected
+
+Mission Success Rate: 80.0%
+Status: Partial Success

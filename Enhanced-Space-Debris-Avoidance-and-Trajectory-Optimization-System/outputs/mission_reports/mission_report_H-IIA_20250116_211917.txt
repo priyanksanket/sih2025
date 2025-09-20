@@ -1,0 +1,35 @@
+=== SDARC-Enhanced Mission Report ===
+Mission Generated On: 2025-09-19 12:04:05
+
+Mission Overview
+  Rocket Type: H-IIA
+  Launch Site: Tanegashima Space Center, Japan
+  Orbit Type: GEO
+  Target Altitude: 35786 km
+  Launch Timestamp: 2025-01-16 21:19:17
+  Total Journey Time: 926.67 s
+
+Rocket Parameters
+  Thrust: 4200.00 kN
+  Initial Mass: 15000.00 kg
+  Burn Time (Design): 397.00 s
+
+Trajectory Details (Pre-Optimization)
+  Initial Position: (x0: -3603.32 km, y0: 4148.65 km, z0: 3224.04 km)
+  Final Position: (x: 58361.61 km, y: 37670.38 km, z: 42157.00 km)
+  Burn Time: 397.00 s
+  Time to Climb: 926.67 s
+  Distance Traveled: 80493 km
+  Orbital Velocity: 3.07 km/s
+
+Trajectory Equations (Pre-Optimization)
+  X: x0 + 107.35t² if t ≤ 397 else x0 + 16919531 + 85237(t - 397) + gravity if t ≤ 927 else orbit at 3075 m/s
+  Y: y0 + 58.16t² if t ≤ 397 else y0 + 9165905 + 46176(t - 397) + gravity if t ≤ 927 else orbit at 3075 m/s
+  Z: z0 + 67.52t² if t ≤ 397 else z0 + 10641009 + 53607(t - 397) + gravity if t ≤ 927 else 42157000
+
+Collision Detection (Pre-Optimization)
+  Collisions Detected: 0
+  Status: No collisions detected
+
+Mission Success Rate: 80.0%
+Status: Partial Success

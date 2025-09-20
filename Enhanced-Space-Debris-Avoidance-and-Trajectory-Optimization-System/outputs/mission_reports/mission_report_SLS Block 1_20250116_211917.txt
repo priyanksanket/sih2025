@@ -1,0 +1,35 @@
+=== SDARC-Enhanced Mission Report ===
+Mission Generated On: 2025-09-19 11:12:50
+
+Mission Overview
+  Rocket Type: SLS Block 1
+  Launch Site: Kennedy Space Center, Florida, USA
+  Orbit Type: HEO
+  Target Altitude: 40000 km
+  Launch Timestamp: 2025-01-16 21:19:17
+  Total Journey Time: 2837.42 s
+
+Rocket Parameters
+  Thrust: 35000.00 kN
+  Initial Mass: 95000.00 kg
+  Burn Time (Design): 126.00 s
+
+Trajectory Details (Pre-Optimization)
+  Initial Position: (x0: 909.20 km, y0: -5520.75 km, z0: 3047.02 km)
+  Final Position: (x: 67770.47 km, y: 20005.57 km, z: 35131.74 km)
+  Burn Time: 126.00 s
+  Time to Climb: 2837.42 s
+  Distance Traveled: 79803 km
+  Orbital Velocity: 2.93 km/s
+
+Trajectory Equations (Pre-Optimization)
+  X: x0 + 139.50t² if t ≤ 126 else x0 + 2214668 + 35153(t - 126) + gravity if t ≤ 2837 else orbit at 2932 m/s
+  Y: y0 + 80.38t² if t ≤ 126 else y0 + 1276056 + 20255(t - 126) + gravity if t ≤ 2837 else orbit at 2932 m/s
+  Z: z0 + 89.76t² if t ≤ 126 else z0 + 1424981 + 22619(t - 126) + gravity if t ≤ 2837 else 46371000
+
+Collision Detection (Pre-Optimization)
+  Collisions Detected: 0
+  Status: No collisions detected
+
+Mission Success Rate: 80.0%
+Status: Partial Success

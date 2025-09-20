@@ -1,0 +1,35 @@
+=== SDARC-Enhanced Mission Report ===
+Mission Generated On: 2025-09-19 12:18:32
+
+Mission Overview
+  Rocket Type: PSLV
+  Launch Site: Satish Dhawan Space Centre, Sriharikota, India
+  Orbit Type: LEO
+  Target Altitude: 250 km
+  Launch Timestamp: 2025-01-16 21:19:17
+  Total Journey Time: 571.39 s
+
+Rocket Parameters
+  Thrust: 3200.00 kN
+  Initial Mass: 17000.00 kg
+  Burn Time (Design): 110.00 s
+
+Trajectory Details (Pre-Optimization)
+  Initial Position: (x0: 1050.23 km, y0: 6099.48 km, z0: 1510.95 km)
+  Final Position: (x: 8577.19 km, y: 6749.33 km, z: 6621.00 km)
+  Burn Time: 110.00 s
+  Time to Climb: 571.39 s
+  Distance Traveled: 9140 km
+  Orbital Velocity: 7.76 km/s
+
+Trajectory Equations (Pre-Optimization)
+  X: x0 + 74.09t² if t ≤ 110 else x0 + 896535 + 16301(t - 110) + gravity if t ≤ 571 else orbit at 7759 m/s
+  Y: y0 + 13.56t² if t ≤ 110 else y0 + 164059 + 2983(t - 110) + gravity if t ≤ 571 else orbit at 7759 m/s
+  Z: z0 + 52.82t² if t ≤ 110 else z0 + 639112 + 11620(t - 110) + gravity if t ≤ 571 else 6621000
+
+Collision Detection (Pre-Optimization)
+  Collisions Detected: 0
+  Status: No collisions detected
+
+Mission Success Rate: 80.0%
+Status: Partial Success

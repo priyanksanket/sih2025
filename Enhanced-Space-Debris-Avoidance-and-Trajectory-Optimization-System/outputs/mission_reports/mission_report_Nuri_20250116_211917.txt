@@ -1,0 +1,35 @@
+=== SDARC-Enhanced Mission Report ===
+Mission Generated On: 2025-09-19 12:20:02
+
+Mission Overview
+  Rocket Type: Nuri
+  Launch Site: Naro Space Center, Goheung, South Korea
+  Orbit Type: LEO
+  Target Altitude: 200 km
+  Launch Timestamp: 2025-01-16 21:19:17
+  Total Journey Time: 52.91 s
+
+Rocket Parameters
+  Thrust: 4400.00 kN
+  Initial Mass: 1330.00 kg
+  Burn Time (Design): 145.00 s
+
+Trajectory Details (Pre-Optimization)
+  Initial Position: (x0: -3201.50 km, y0: 4167.00 km, z0: 3602.25 km)
+  Final Position: (x: -267.68 km, y: 6162.10 km, z: 6571.00 km)
+  Burn Time: 145.00 s
+  Time to Climb: 52.91 s
+  Distance Traveled: 4626 km
+  Orbital Velocity: 7.79 km/s
+
+Trajectory Equations (Pre-Optimization)
+  X: x0 + 1048.00t² if t ≤ 145 else x0 + 22034256 + 303921(t - 145) + gravity if t ≤ 53 else orbit at 7788 m/s
+  Y: y0 + 712.68t² if t ≤ 145 else y0 + 14984128 + 206678(t - 145) + gravity if t ≤ 53 else orbit at 7788 m/s
+  Z: z0 + 1060.48t² if t ≤ 145 else z0 + 22296623 + 307540(t - 145) + gravity if t ≤ 53 else 6571000
+
+Collision Detection (Pre-Optimization)
+  Collisions Detected: 0
+  Status: No collisions detected
+
+Mission Success Rate: 80.0%
+Status: Partial Success

@@ -1,0 +1,13 @@
+numpy>=1.23.0
+pandas>=1.5.0
+matplotlib>=3.6.0
+scipy>=1.9.0
+plotly>=5.0.0
+flask>=2.0.0
+flask-cors>=4.0.0
+
+sgp4~=2.24
+
+# TensorFlow for macOS (use tensorflow>=2.15.0 for other platforms)
+tensorflow-macos>=2.15.0
+tensorflow-metal>=1.0.0  # Optional for Apple Silicon GPU acceleration

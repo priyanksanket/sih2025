@@ -1,0 +1,35 @@
+=== SDARC-Enhanced Mission Report ===
+Mission Generated On: 2025-09-19 12:25:56
+
+Mission Overview
+  Rocket Type: Atlas V
+  Launch Site: Unknown
+  Orbit Type: GEO
+  Target Altitude: 35786 km
+  Launch Timestamp: 2025-09-26 06:52:01
+  Total Journey Time: 3131.50 s
+
+Rocket Parameters
+  Thrust: 3820.00 kN
+  Initial Mass: 20000.00 kg
+  Burn Time (Design): 253.00 s
+
+Trajectory Details (Pre-Optimization)
+  Initial Position: (x0: 914.64 km, y0: -5529.52 km, z0: 3029.44 km)
+  Final Position: (x: 90300.74 km, y: 39440.31 km, z: 42157.00 km)
+  Burn Time: 253.00 s
+  Time to Climb: 3131.50 s
+  Distance Traveled: 107862 km
+  Orbital Velocity: 3.07 km/s
+
+Trajectory Equations (Pre-Optimization)
+  X: x0 + 74.07t² if t ≤ 253 else x0 + 4741442 + 37482(t - 253) + gravity if t ≤ 3131 else orbit at 3075 m/s
+  Y: y0 + 44.86t² if t ≤ 253 else y0 + 2871672 + 22701(t - 253) + gravity if t ≤ 3131 else orbit at 3075 m/s
+  Z: z0 + 41.02t² if t ≤ 253 else z0 + 2625733 + 20757(t - 253) + gravity if t ≤ 3131 else 42157000
+
+Collision Detection (Pre-Optimization)
+  Collisions Detected: 0
+  Status: No collisions detected
+
+Mission Success Rate: 80.0%
+Status: Partial Success

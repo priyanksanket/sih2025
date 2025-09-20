@@ -1,0 +1,35 @@
+=== SDARC-Enhanced Mission Report ===
+Mission Generated On: 2025-09-19 11:52:23
+
+Mission Overview
+  Rocket Type: Falcon 1
+  Launch Site: Unknown
+  Orbit Type: LEO
+  Target Altitude: 230 km
+  Launch Timestamp: 2025-09-19 06:21:47
+  Total Journey Time: 64.32 s
+
+Rocket Parameters
+  Thrust: 1800.00 kN
+  Initial Mass: 470.00 kg
+  Burn Time (Design): 169.00 s
+
+Trajectory Details (Pre-Optimization)
+  Initial Position: (x0: -6148.32 km, y0: 1335.71 km, z0: 1001.87 km)
+  Final Position: (x: -595.36 km, y: 2207.84 km, z: 6601.00 km)
+  Burn Time: 169.00 s
+  Time to Climb: 64.32 s
+  Distance Traveled: 7934 km
+  Orbital Velocity: 7.77 km/s
+
+Trajectory Equations (Pre-Optimization)
+  X: x0 + 1342.10t² if t ≤ 169 else x0 + 38331785 + 453631(t - 169) + gravity if t ≤ 64 else orbit at 7771 m/s
+  Y: y0 + 210.79t² if t ≤ 169 else y0 + 6020322 + 71246(t - 169) + gravity if t ≤ 64 else orbit at 7771 m/s
+  Z: z0 + 1353.26t² if t ≤ 169 else z0 + 38650519 + 457403(t - 169) + gravity if t ≤ 64 else 6601000
+
+Collision Detection (Pre-Optimization)
+  Collisions Detected: 0
+  Status: No collisions detected
+
+Mission Success Rate: 80.0%
+Status: Partial Success

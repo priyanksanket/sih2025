@@ -1,0 +1,35 @@
+=== SDARC-Enhanced Mission Report ===
+Mission Generated On: 2025-09-19 11:18:14
+
+Mission Overview
+  Rocket Type: GSLV Mk III
+  Launch Site: Satish Dhawan Space Centre, Sriharikota, India
+  Orbit Type: GEO
+  Target Altitude: 35786 km
+  Launch Timestamp: 2025-01-16 21:19:17
+  Total Journey Time: 2342.96 s
+
+Rocket Parameters
+  Thrust: 7800.00 kN
+  Initial Mass: 43000.00 kg
+  Burn Time (Design): 181.00 s
+
+Trajectory Details (Pre-Optimization)
+  Initial Position: (x0: 1050.23 km, y0: 6099.48 km, z0: 1510.95 km)
+  Final Position: (x: 50960.92 km, y: 3593.01 km, z: 17268.23 km)
+  Burn Time: 181.00 s
+  Time to Climb: 2342.96 s
+  Distance Traveled: 53683 km
+  Orbital Velocity: 3.07 km/s
+
+Trajectory Equations (Pre-Optimization)
+  X: x0 + 79.05t² if t ≤ 181 else x0 + 2589820 + 28617(t - 181) + gravity if t ≤ 2343 else orbit at 3075 m/s
+  Y: y0 + 14.77t² if t ≤ 181 else y0 + 483789 + 5346(t - 181) + gravity if t ≤ 2343 else orbit at 3075 m/s
+  Z: z0 + 37.17t² if t ≤ 181 else z0 + 1217596 + 13454(t - 181) + gravity if t ≤ 2343 else 42157000
+
+Collision Detection (Pre-Optimization)
+  Collisions Detected: 0
+  Status: No collisions detected
+
+Mission Success Rate: 80.0%
+Status: Partial Success

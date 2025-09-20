@@ -1,0 +1,35 @@
+=== SDARC-Enhanced Mission Report ===
+Mission Generated On: 2025-09-19 11:24:12
+
+Mission Overview
+  Rocket Type: Firefly Alpha
+  Launch Site: Vandenberg Space Force Base, California, USA
+  Orbit Type: LEO
+  Target Altitude: 200 km
+  Launch Timestamp: 2025-01-16 21:19:17
+  Total Journey Time: 73.12 s
+
+Rocket Parameters
+  Thrust: 1720.00 kN
+  Initial Mass: 1000.00 kg
+  Burn Time (Design): 165.00 s
+
+Trajectory Details (Pre-Optimization)
+  Initial Position: (x0: -2662.74 km, y0: -4507.48 km, z0: 3630.72 km)
+  Final Position: (x: 243.75 km, y: -2483.95 km, z: 6571.00 km)
+  Burn Time: 165.00 s
+  Time to Climb: 73.12 s
+  Distance Traveled: 4603 km
+  Orbital Velocity: 7.79 km/s
+
+Trajectory Equations (Pre-Optimization)
+  X: x0 + 543.68t² if t ≤ 165 else x0 + 14801666 + 179414(t - 165) + gravity if t ≤ 73 else orbit at 7788 m/s
+  Y: y0 + 378.51t² if t ≤ 165 else y0 + 10305050 + 124910(t - 165) + gravity if t ≤ 73 else orbit at 7788 m/s
+  Z: z0 + 550.00t² if t ≤ 165 else z0 + 14973727 + 181500(t - 165) + gravity if t ≤ 73 else 6571000
+
+Collision Detection (Pre-Optimization)
+  Collisions Detected: 0
+  Status: No collisions detected
+
+Mission Success Rate: 80.0%
+Status: Partial Success

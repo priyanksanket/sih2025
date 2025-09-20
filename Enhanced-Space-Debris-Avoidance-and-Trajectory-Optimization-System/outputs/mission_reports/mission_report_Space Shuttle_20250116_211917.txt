@@ -1,0 +1,35 @@
+=== SDARC-Enhanced Mission Report ===
+Mission Generated On: 2025-09-19 11:37:28
+
+Mission Overview
+  Rocket Type: Space Shuttle
+  Launch Site: Kennedy Space Center, Florida, USA
+  Orbit Type: LEO
+  Target Altitude: 200 km
+  Launch Timestamp: 2025-01-16 21:19:17
+  Total Journey Time: 258.00 s
+
+Rocket Parameters
+  Thrust: 23000.00 kN
+  Initial Mass: 104000.00 kg
+  Burn Time (Design): 510.00 s
+
+Trajectory Details (Pre-Optimization)
+  Initial Position: (x0: 909.20 km, y0: -5520.75 km, z0: 3047.02 km)
+  Final Position: (x: 6464.54 km, y: -2195.89 km, z: 6571.00 km)
+  Burn Time: 510.00 s
+  Time to Climb: 258.00 s
+  Distance Traveled: 7371 km
+  Orbital Velocity: 7.79 km/s
+
+Trajectory Equations (Pre-Optimization)
+  X: x0 + 83.46t² if t ≤ 510 else x0 + 21707149 + 85126(t - 510) + gravity if t ≤ 258 else orbit at 7788 m/s
+  Y: y0 + 49.95t² if t ≤ 510 else y0 + 12991660 + 50948(t - 510) + gravity if t ≤ 258 else orbit at 7788 m/s
+  Z: z0 + 52.94t² if t ≤ 510 else z0 + 13769727 + 53999(t - 510) + gravity if t ≤ 258 else 6571000
+
+Collision Detection (Pre-Optimization)
+  Collisions Detected: 0
+  Status: No collisions detected
+
+Mission Success Rate: 80.0%
+Status: Partial Success

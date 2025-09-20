@@ -1,0 +1,35 @@
+=== SDARC-Enhanced Mission Report ===
+Mission Generated On: 2025-09-19 11:08:55
+
+Mission Overview
+  Rocket Type: Falcon 1
+  Launch Site: Omelek Island, Kwajalein Atoll, Marshall Islands
+  Orbit Type: LEO
+  Target Altitude: 800 km
+  Launch Timestamp: 2025-01-17 12:00:00
+  Total Journey Time: 67.52 s
+
+Rocket Parameters
+  Thrust: 1800.00 kN
+  Initial Mass: 470.00 kg
+  Burn Time (Design): 169.00 s
+
+Trajectory Details (Pre-Optimization)
+  Initial Position: (x0: -6148.32 km, y0: 1335.71 km, z0: 1001.87 km)
+  Final Position: (x: -30.06 km, y: 2296.63 km, z: 7171.00 km)
+  Burn Time: 169.00 s
+  Time to Climb: 67.52 s
+  Distance Traveled: 8742 km
+  Orbital Velocity: 7.46 km/s
+
+Trajectory Equations (Pre-Optimization)
+  X: x0 + 1342.10t² if t ≤ 169 else x0 + 38331785 + 453631(t - 169) + gravity if t ≤ 68 else orbit at 7456 m/s
+  Y: y0 + 210.79t² if t ≤ 169 else y0 + 6020322 + 71246(t - 169) + gravity if t ≤ 68 else orbit at 7456 m/s
+  Z: z0 + 1353.26t² if t ≤ 169 else z0 + 38650519 + 457403(t - 169) + gravity if t ≤ 68 else 7171000
+
+Collision Detection (Pre-Optimization)
+  Collisions Detected: 0
+  Status: No collisions detected
+
+Mission Success Rate: 80.0%
+Status: Partial Success
